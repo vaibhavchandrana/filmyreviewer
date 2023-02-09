@@ -28,7 +28,7 @@ const Reviews = ({ id, prevRating, userRated }) => {
           name: "vaibhav rana",
           rating: rating,
           thought: form,
-          timestamp: new Date().getTime()
+          timestamp: new Date().getTime(),
 
         })
         const ref = doc(db, "movies", id);
